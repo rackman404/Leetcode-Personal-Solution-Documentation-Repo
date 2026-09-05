@@ -47,3 +47,9 @@ dictOne.add(5)
 doctOne.remove(5)
 
 ```
+
+---
+# Examples
+
+
+## [Checking Intersection](https://leetcode.com/submissions/detail/2126537393/)

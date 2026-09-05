@@ -1,4 +1,7 @@
-Greedy algorithms do no looking ahead and do not incorporate any backtracking (however, we note that backtracking algorithms are discussed in
+Method for solving [[optimization problems]]
+
+
+Greedy algorithms do no look ahead and do not incorporate any backtracking (however, we note that backtracking algorithms are discussed in
 detail in Chapter 8).
 	• Greedy algorithms can usually be implemented efficiently. Often they consist of a pre-processing step based on the function g, followed by a single pass through the data. For a greedy algorithm to be efficient, we need a fast way to find the “best” extension of any given partial solution X.
 	• In a greedy algorithm, only one feasible solution is constructed.
@@ -9,3 +12,14 @@ detail in Chapter 8).
 - Single preprocessing Step (if required)
 - Single passthrough 
 	- Evaluate at each step assuming that the local maximum is probably the best possible maximum at the given moment (i.e doesn't need to check ahead or behind)
+
+# Problem Solving
+- Identify various strategies
+	- I.e: find ways of sorting or maximising, minimizing the data given
+- Determine if the strategy results in "best" possible local solutions to the overall solution X
+
+
+
+# Examples
+
+### [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) (Hashtable + Greedy to solve for groups of consecutive numbers)

@@ -1,6 +1,6 @@
 
 
-An alternative version of DP (But not actually DP), in DP, we try and avoid solving subproblems more than once by caching data in a table for future use. Memoization does the same thing but in a different approach.
+An alternative version of [Dynamic Programming](Theory/Techniques/Dynamic%20Programming.md) (But not actually DP), in DP, we try and avoid solving subproblems more than once by caching data in a table for future use. Memoization does the same thing but in a different approach.
 
 ---
 # Approach

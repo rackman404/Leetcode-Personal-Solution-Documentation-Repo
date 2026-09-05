@@ -1,7 +1,8 @@
 
+Technique for computing solutions to subproblems of a overall problem in a **bottom up** fashion. It involves filling in a table, in a carefully specified order, to solve a problem. A recursive alternative exists called [Memoization](Theory/Techniques/Memoization.md)
 
-Technique for computing solutions to subproblems of a overall problem in a **bottom up** fashion.
 
+# Steps
 ### Identify Optimal Structure
 Examine the structure of an optimal solution to a problem instance I, and determine if an optimal solution for I can be expressed in terms of optimal solutions to one or more subproblems of I.
 

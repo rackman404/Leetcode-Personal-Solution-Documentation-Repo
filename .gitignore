@@ -1,3 +1,3 @@
-# Ignore volatile UI-related state
+# Ignore volatile UI-related state (from https://forum.obsidian.md/t/what-should-i-gitignore-for-my-vaults-github-repository/101077)
 .obsidian/workspace.json
 .obsidian/app.json
